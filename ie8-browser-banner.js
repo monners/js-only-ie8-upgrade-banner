@@ -21,7 +21,7 @@
 		frag.setAttribute('style', 'dispay: block; position: fixed; top: 0; right: 0; left: 0; width: 100%; background: #939393; text-align: center;');
 
 		close.attachEvent('onclick', function() {
-			frag.setAttribute('style', 'display: none');
+			frag.parentNode.removeChild(frag);
 		});
 
 		frag.appendChild(title);
