@@ -18,7 +18,7 @@
 		close.setAttribute('style', 'display: block; position: absolute; top: 0; right: 0; height: 30px; width: 30px; background-color: white; text-align: center; cursor: pointer; font-family: sans-serif; line-height: 29px;');
 		close.innerHTML = 'X';
 		frag.className = 'download-better-browser';
-		frag.setAttribute('style', 'dispay: block; position: fixed; top: 0; right: 0; left: 0; width: 100%; background: #939393; text-align: center;');
+		frag.setAttribute('style', 'display: block; position: fixed; top: 0; right: 0; left: 0; width: 100%; background: #939393; text-align: center;');
 
 		close.attachEvent('onclick', function() {
 			frag.parentNode.removeChild(frag);
